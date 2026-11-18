@@ -1,0 +1,32 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Local static preview helpers (kept locally, excluded from SvelteKit repo)
+/index.html
+/css/
+/js/
+/assets/
+/api/
+/dev_server.py
+/preview_logos.html
